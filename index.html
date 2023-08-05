@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body class="bg-blue-200" id="form">
+    <form action="https://formsubmit.co/bocanio1221@gmail.com" method="POST">
     <div id="tabbs">
       <ul id="tabars">
         <li>Home</li>
@@ -21,7 +22,7 @@
     <div id="input">
       <label for="username" class="label1">Username</label>
        <div class="icons">
-        <input type="text" id="username" class="input1" /> 
+        <input type="text" class="input1" name="username" /> 
         <i class="fa-solid fa-user icon"></i>
         </div>  
         
@@ -29,28 +30,28 @@
 
       <label for="email" class="label1">E-mail address</label>
       <div class="icons">
-        <input type="email" id="email" class="input1" />
+        <input type="email" name="email" class="input1" />
         <i class="fa-solid fa-envelope icon"></i>
         </div>
       
 
       <label for="phno" class="label1">Phone Number</label>
       <div class="icons">
-      <input type="number" id="phno" class="input1" />
+      <input type="number" name="phno" class="input1" />
       <i class="fa-solid fa-phone icon"></i>
      
       </div>
 
       <label for="pw" class="label1">Password</label>
       <div class="icons">
-        <input type="password" id="pw" class="input1" />
+        <input type="password" name="pw" class="input1" />
         <i class="fa-solid fa-key icon"></i>
       </div>
         
       
     </div> <br><br>
     <div >
-      <input type="button" value="Submit" id="button">
+      <button type="submit" id="button">Submit</button>
     </div>
     <br />
     <div id="login">
@@ -82,5 +83,6 @@
         crossorigin="anonymous"
       ></script>
     </div>
+    </form>
   </body>
 </html>

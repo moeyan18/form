@@ -70,12 +70,11 @@
     width: 100%;
     background-color: rgb(199, 168, 28);
     font-size: xx-large;
-    position: absolute;
     
 
 }
 #tabbs{
-    width: 100%;
+    width: 90%;
     position: fixed;
     top: 1px;
 }
